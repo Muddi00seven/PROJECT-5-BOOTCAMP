@@ -1,10 +1,12 @@
 import React from 'react'
-
+import First from './Section1.js/first'
 const Home = () => {
     return (
-        <div>
-            dsadas
-        </div>
+      <>
+      <section>
+          <First/>
+      </section>
+      </>
     )
 }
 
