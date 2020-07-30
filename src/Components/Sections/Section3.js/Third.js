@@ -48,7 +48,7 @@ const useStyles = makeStyles({
     },
 });
 
-const Second = () => {
+const Third = () => {
     const styles = useStyles()
     return (
     <>
@@ -76,4 +76,4 @@ const Second = () => {
     )
     }
 
-    export default Second
+    export default Third;
