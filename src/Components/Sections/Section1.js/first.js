@@ -11,6 +11,7 @@ const useStyles = makeStyles({
  
 
     heading1:{
+        // float: 'left',
         marginTop: '15%',
         marginLeft: '-35%'
 
@@ -22,17 +23,19 @@ const useStyles = makeStyles({
         position: 'absolute',
         color: 'red',
         marginLeft:'10%',
-        widht: '10%'
+        widht: '10%',
+        float: 'left',
 
 
     },
 
     subHeading:{
-        marginTop: '15%',
         // marginTop: '%',
         width:'50%',
         float: 'left',
         marginLeft: '10%'
+
+        // marginLeft: '10%'
 
     
     },
