@@ -1,5 +1,5 @@
 import React from 'react';
-import landingImage from '../../assets/main.jpg';
+import landingImage from '../../assets/firstMain.svg';
 import './first.css';
 import { Typography, makeStyles } from "@material-ui/core";
 
@@ -13,12 +13,23 @@ const useStyles = makeStyles({
 
         
     },
-    // firstSection:{
-
-    // },
+    firstSection:{
+    },
     firstText:{
         position: 'absolute',
-        color: 'red'
+        color: 'red',
+        marginLeft:'10%',
+        widht: '10%'
+
+
+    },
+    heading1:{
+
+    },
+
+    subHeading:{
+        marginTop: '15%',
+
     }
 })
 
@@ -28,16 +39,17 @@ const First = () => {
     <>
     <div>
         <div className={styles.firstText}>
-            <Typography>
+            <Typography variant="h2" className={styles.heading1}>
                 WELCOME TO THE
             </Typography>
 
-            <Typography>
-            
+            <Typography variatn="h6" className={styles.subHeading}>
+            Technology is evolving so do we seek new ideas and inspirations to build elegant and cunning designs of
+             websites with asounding quality, future proof designs and responsive layouts. 
             </Typography>
         </div>
         <div>
-            <img src={landingImage} className={styles.landingImage} alt='landingImage'/>
+            <img className={styles.landingImage} src={landingImage}/>
         </div>
     </div>
     </>
