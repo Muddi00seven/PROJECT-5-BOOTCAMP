@@ -3,7 +3,7 @@ import landingImage from '../../assets/main.jpg';
 import './first.css';
 import { Typography, makeStyles } from "@material-ui/core";
 
-import useWebAnimations from "@wellyshen/use-web-animations";
+// import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 const useStyles = makeStyles({
