@@ -13,9 +13,9 @@ const useStyles = makeStyles({
 
         
     },
-    firstSection:{
+    // firstSection:{
 
-    },
+    // },
     firstText:{
         position: 'absolute',
         color: 'red'
@@ -26,7 +26,7 @@ const First = () => {
     const styles = useStyles();
     return (
     <>
-    <div className={styles.firstSection}>
+    <div>
         <div className={styles.firstText}>
             <Typography>
                 WELCOME TO THE
