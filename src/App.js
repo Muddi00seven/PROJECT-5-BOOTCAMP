@@ -1,16 +1,11 @@
 import React from 'react';
 import './App.css';
-import Home from './Components/Home';
-import Navigation from './Components/header/Navigation'
+import Home from './Components/Home'
 function App() {
   return (
-    <>
     <div className="App">
-      <Navigation/>
       <Home/>
-
     </div>
-    </>
   );
 }
 

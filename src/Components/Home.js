@@ -1,5 +1,5 @@
 import React from 'react'
-import First from './Sections/Section1.js/first'
+import First from './Section1.js/first'
 const Home = () => {
     return (
       <>

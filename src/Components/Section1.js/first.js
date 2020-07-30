@@ -1,43 +1,36 @@
 import React from 'react';
-import landingImage from '../../../assets/firstMain.svg';
+import landingImage from '../../assets/firstMain.svg';
 import './first.css';
 import { Typography, makeStyles } from "@material-ui/core";
-import Typical from 'react-typical';
 
 // import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 const useStyles = makeStyles({
- 
+    landingImage:{
+        // height: '60%'
+        width:'100%'
 
-    heading1:{
-        marginTop: '15%',
-        marginLeft: '-35%'
-
-    },
         
-    firstContiner:{
+    },
+    firstSection:{
+    },
+    firstText:{
         position: 'absolute',
         color: 'red',
-        // widht: '10%',
+        marginLeft:'10%',
+        widht: '10%'
+
+
+    },
+    heading1:{
 
     },
 
     subHeading:{
-        // marginTop: '%',
-        width:'50%',
-        float: 'left',
-        marginLeft: '10%'
+        marginTop: '15%',
 
-    },
-   
-
-    landingImage:{
-        // height: '60%'
-        width:'50%',
-        float: 'right'
-        
-    },
+    }
 })
 
 const First = () => {
@@ -45,20 +38,17 @@ const First = () => {
     return (
     <>
     <div>
-        <div className={styles.firstContiner}>
+        <div className={styles.firstText}>
             <Typography variant="h2" className={styles.heading1}>
-            <Typical steps={['', 1000, 'Welcome to ... ', 500]}
-        loop={1}
-        wrapper="p"
-        
-        />            </Typography>
+                WELCOME TO THE
+            </Typography>
 
             <Typography variatn="h6" className={styles.subHeading}>
             Technology is evolving so do we seek new ideas and inspirations to build elegant and cunning designs of
              websites with asounding quality, future proof designs and responsive layouts. 
             </Typography>
         </div>
-        <div>  
+        <div>
             <img className={styles.landingImage} src={landingImage}/>
         </div>
     </div>
