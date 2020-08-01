@@ -1,16 +1,20 @@
 import React from 'react'
-import First from './Sections/Section1.js/first';
-import Second from './Sections/Section2.js/Second';
-
+import FirstSection from './Sections/First/First';
+import SecondSection from './Sections/Second/Second';
+import ThirdSection from './Sections/Third/Third';
 const Home = () => {
     return (
       <>
       <section>
-          <First/>
+          <FirstSection/>
           </section>
         <section>
-          <Second/>
+          <SecondSection/>
           </section>
+          <section>
+          <ThirdSection/>
+          </section>
+  
       </>
     )
 }
