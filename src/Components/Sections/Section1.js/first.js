@@ -69,9 +69,7 @@ const First = () => {
              websites with asounding quality, future proof designs and responsive layouts. 
             </Typography>
         </div>
-        <div>  
             <img className={styles.landingImage} src={landingImage}/>
-        </div>
     </div>
     </>
     )

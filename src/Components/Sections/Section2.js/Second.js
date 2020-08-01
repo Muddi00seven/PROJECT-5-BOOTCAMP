@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   
         
     firstContiner:{
-        position: 'absolute',
+        // position: 'absolute',
         color: 'red',
         marginLeft:'10%',
         widht: '10%',
@@ -31,7 +31,7 @@ const useStyles = makeStyles({
     subHeading:{
         // marginTop: '%',
         width:'50%',
-        float: 'left',
+        float: 'right',
         marginLeft: '10%'
 
         // marginLeft: '10%'
@@ -43,7 +43,7 @@ const useStyles = makeStyles({
     landingImage:{
         // height: '60%'
         width:'50%',
-        float: 'right'
+        float: 'left'
         
     },
 });
@@ -56,21 +56,19 @@ const Second = () => {
         <div className={styles.firstContiner}>
             <Typography variant="h2" className={styles.heading1}>
        
-            <Typical steps={['', 1000, 'Welcome to ... ', 500]}
+            {/* <Typical steps={['', 1000, 'Welcome to ... ', 500]}
         loop={1}
         wrapper="p"
         
-        />    
+        />     */}
                 </Typography>
 
-            <Typography variatn="h6" className={styles.subHeading}>
+            {/* <Typography variatn="h6" className={styles.subHeading}>
             Technology is evolving so do we seek new ideas and inspirations to build elegant and cunning designs of
              websites with asounding quality, future proof designs and responsive layouts. 
-            </Typography>
+            </Typography> */}
         </div>
-        <div>  
             <img className={styles.landingImage} src={iMac}/>
-        </div>
     </div>
     </>
     )
