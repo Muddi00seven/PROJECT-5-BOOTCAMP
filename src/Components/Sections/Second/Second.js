@@ -4,7 +4,6 @@ import '../../css/Section.css';
 import Button from '@material-ui/core/Button';
 import useWebAnimations from "@wellyshen/use-web-animations";
 import iMac from '../../../assets/imac.svg'
-import "animate.css/animate.min.css";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -77,9 +76,7 @@ const SecondSection = () => {
     
     }
     
-    
-    // const [scrollY,] = useState(0);
-    
+      
     useEffect(() => {
       function watchScroll() {
         window.addEventListener("scroll", scrollFor);
