@@ -6,21 +6,22 @@ import iMac from '../../../assets/imac.svg'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 const useStyles = makeStyles({
-    HeadingComponent: {
-        color: 'black',
-        marginTop: '25%',
-        width: '50%',
-        fontFamily: 'Tahoma, Geneva, sans-serif'
-
-
-    },
+   
     buildSection:{
-        marginTop: '10%',
+        marginTop: '20%',
         marginLeft: '5%',
         marginRight : '4%',
         fontFamily: 'Tahoma, Geneva, sans-serif'
 
-    }
+    },
+    HeadingComponent: {
+      marginTop: '8%',
+      color: 'black',
+      width: '50%',
+      fontFamily: 'Tahoma, Geneva, sans-serif'
+
+
+  },
 
    
 
@@ -75,13 +76,13 @@ const ThirdSection = () => {
             </Typography>
             <br/>            <br/>
 
-            <Typography data-aos="fade-zoom-in" variant="h6">
+            <Typography data-aos="fade-up" data-aos-anchor-placement="top-center" variant="h6">
             The possibilities of what you can build on the Syscoin
             platform are limited only by your imagination. Here are a some use cases to get your wheels turning:            </Typography>
         </div>
 
     
-            <img src={iMac} alt="build" ref={build.ref }data-aos="fade-zoom-in"/>
+            <img src={iMac} alt="build" ref={build.ref }data-aos="fade-up" data-aos-anchor-placement="top-center"/>
 
         </div>
         </section>

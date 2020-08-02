@@ -94,14 +94,14 @@ const SecondSection = () => {
         <>
         <section className={classes.CryptoSection}>
             <div className="buildSection">
-            <img src={iMac} alt="CryptoSection" ref={CryptoSection.ref}/>
+            <img src={iMac} data-aos="fade-up" data-aos-anchor-placement="top-center" alt="CryptoSection" ref={CryptoSection.ref}/>
         <div className={classes.HeadingComponent}>
             <Typography variant="h2" component="h2">
             Create Crypto Tokens
             </Typography>
             <br/>            <br/>
        
-            <Typography variant="h6" data-aos="fade-zoom-in">
+            <Typography variant="h6" data-aos="fade-up" data-aos-anchor-placement="top-center">
         
             Syscoin Platform Tokens (SPT) allow anyone to quickly create their own cryptocurrency token on Syscoin Platform. An example of an SPT is LODE,
              a new cryptographic money system backed by physical silver. Other use cases include loyalty points, coins supported by physical assets, and service-backed currency.
