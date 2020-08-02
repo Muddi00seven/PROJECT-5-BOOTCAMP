@@ -3,7 +3,7 @@ import { Typography, makeStyles} from "@material-ui/core";
 import '../../css/Section.css';
 import useWebAnimations from "@wellyshen/use-web-animations";
 import Clock from '../../../assets/alarm-clock.svg'
-import AOS from 'aos'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 const useStyles = makeStyles({
    
@@ -22,7 +22,10 @@ const useStyles = makeStyles({
 
 
   },
-
+  image:{
+    width: '60%',
+    height: '10%'
+  }
    
 
   });
@@ -76,12 +79,13 @@ const ThirdSection = () => {
             <br/>            <br/>
 
             <Typography data-aos="fade-up" data-aos-anchor-placement="top-center" variant="h6">
-            The possibilities of what you can build on the Syscoin
-            platform are limited only by your imagination. Here are a some use cases to get your wheels turning:            </Typography>
+            Many people who work from home choose to start their work days 
+            earlier—and subsequently boost their productivity. Freelancers can fill that former commute time with outreach to clients, getting certified in a new skill
+            </Typography>
         </div>
 
     
-            <img src={Clock} alt="build" ref={build.ref }data-aos="fade-up" data-aos-anchor-placement="top-center"/>
+            <img src={Clock} alt="build" ref={build.ref } data-aos="fade-up" data-aos-anchor-placement="top-center" className={classes.image}/>
 
         </div>
         </section>

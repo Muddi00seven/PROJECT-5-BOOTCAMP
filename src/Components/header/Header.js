@@ -8,7 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Button } from "@material-ui/core";
 import {Link} from 'react-router-dom';
-
+import logo from '../../assets/LOGO.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -18,8 +18,9 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
+    padding: 'auto',
 
-    backgroundColor: 'black'
+    backgroundColor: 'white'
   },
 
   navButton : {
@@ -44,6 +45,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       marginLeft: 80,
     },
+
+    logo:{
+      padding: '-100px'
+    }
   }
 }
 ));
@@ -56,8 +61,7 @@ const Header = ({ onMenuClickHandler }) => {
         <Toolbar className={classes.container }>
           {/* <Link to="/">
           </Link> */}
-                  <img className={classes.logo} src="https://onefinewallet.com/wp-content/uploads/2018/04/work-from-home-logo.png" alt="logo" width="80px" height='70px'/>
-
+            <img className={classes.logo} src={logo} alt="logo" width="100px" height='80px'/>
           <Hidden xsDown>
             <div className={classes.links}>
             {/* LINKS WILL BE PUT HERE */}
