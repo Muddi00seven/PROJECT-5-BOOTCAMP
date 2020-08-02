@@ -2,6 +2,7 @@ import React from 'react'
 import FirstSection from './Sections/First/First';
 import SecondSection from './Sections/Second/Second';
 import ThirdSection from './Sections/Third/Third';
+import Contact from './contact/Contact'
 const Home = () => {
     return (
       <>
@@ -13,6 +14,9 @@ const Home = () => {
           </section>
           <section>
           <ThirdSection/>
+          </section>
+          <section>
+            <Contact/>
           </section>
   
       </>

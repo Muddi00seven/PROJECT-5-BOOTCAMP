@@ -1,7 +1,6 @@
 import React, { useEffect  } from 'react';
 import { Typography, makeStyles } from "@material-ui/core";
 import '../../css/Section.css';
-import useWebAnimations from "@wellyshen/use-web-animations";
 import LandingImage from '../../../assets/firstMain.svg'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
