@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Typography, makeStyles} from "@material-ui/core";
 import '../../css/Section.css';
 import useWebAnimations from "@wellyshen/use-web-animations";
-import iMac from '../../../assets/imac.svg'
+import Clock from '../../../assets/alarm-clock.svg'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 const useStyles = makeStyles({
@@ -71,8 +71,7 @@ const ThirdSection = () => {
             <div className="buildSection">
         <div className={classes.HeadingComponent}>
             <Typography variant="h2" component="h2">
-            What Can You Build?
-
+              How Much Time We Save?
             </Typography>
             <br/>            <br/>
 
@@ -82,7 +81,7 @@ const ThirdSection = () => {
         </div>
 
     
-            <img src={iMac} alt="build" ref={build.ref }data-aos="fade-up" data-aos-anchor-placement="top-center"/>
+            <img src={Clock} alt="build" ref={build.ref }data-aos="fade-up" data-aos-anchor-placement="top-center"/>
 
         </div>
         </section>

@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 
 const useStyles = makeStyles({
     HeadingComponent: {
+      marginTop: '10%',
         color: 'black',
         width: '50%',
         fontFamily: 'Tahoma, Geneva, sans-serif'
@@ -16,7 +17,6 @@ const useStyles = makeStyles({
 
     },
     first:{
-      marginTop: '5%',
         marginLeft: '4%',
         marginRight : '4%',
         fontFamily: 'Tahoma, Geneva, sans-serif'
@@ -54,16 +54,13 @@ const FirstSection = () => {
             <div className="buildSection">
         <div className={classes.HeadingComponent}>
             <Typography variant="h2" component="h2">
-            Syscoin Bridge
-
+              Work From Home
             </Typography>
             <br/>            <br/>
 
             <Typography variant="h6" data-aos="fade-zoom-in" className={classes.firstPara}>
-            Syscoin 4.0 introduces a first-of-its-kind, two-way bridge to Ethereum. This allows Ethereum developers to move ERC20 tokens back and forth between
-             the Ethereum network and Syscoin Platfom, where they can make use of the scalability and high-transaction-throughput that Syscoin offers. This is done 
-             using a unique, permissionless burn/mint process that moves a quantity of ERC20 tokens into a corresponding Syscoin Platform Token (SPT), which the user has created.
-              The bridge makes it possible to maintain a presence on both the Syscoin network and Ethereum network.
+            The work-from-home job force just got a big push from the current global 
+            coronavirus pandemic. But even before COVID-19 became a factor, increasing numbers of people have been saying goodbye to their onerous commute to work.
              </Typography>
              <br/> <br/>
           

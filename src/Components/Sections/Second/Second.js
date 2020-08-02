@@ -97,14 +97,16 @@ const SecondSection = () => {
             <img src={iMac} data-aos="fade-up" data-aos-anchor-placement="top-center" alt="CryptoSection" ref={CryptoSection.ref}/>
         <div className={classes.HeadingComponent}>
             <Typography variant="h2" component="h2">
-            Create Crypto Tokens
+              Using Technology
             </Typography>
             <br/>            <br/>
        
             <Typography variant="h6" data-aos="fade-up" data-aos-anchor-placement="top-center">
-        
-            Syscoin Platform Tokens (SPT) allow anyone to quickly create their own cryptocurrency token on Syscoin Platform. An example of an SPT is LODE,
-             a new cryptographic money system backed by physical silver. Other use cases include loyalty points, coins supported by physical assets, and service-backed currency.
+            Thanks to ever-evolving technologies like Skype, Facetime, Slack, Zoom, Google Hangouts, 
+            authenticator apps, and cloud computing—not to mention texting and email—it's no longer necessary to 
+            be in an office full-time to be a productive member of the team. In fact, many kinds of work 
+            can be done just as effectively, if not more so, from a home office. 
+           
 
             </Typography>
             <br/><br/><br/>

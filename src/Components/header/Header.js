@@ -56,16 +56,16 @@ const Header = ({ onMenuClickHandler }) => {
         <Toolbar className={classes.container }>
           {/* <Link to="/">
           </Link> */}
-                    <a href="https://antiscamtoken.cyou/">  <img className={classes.logo} src="https://firebasestorage.googleapis.com/v0/b/cdn-clients-other-use.appspot.com/o/images%2FSPT.png?alt=media&token=d0f84c2f-81b0-4ca7-8525-578992ef7d43" alt="logo" width="80px" height='70px'/> </a>
+                  <img className={classes.logo} src="https://onefinewallet.com/wp-content/uploads/2018/04/work-from-home-logo.png" alt="logo" width="80px" height='70px'/>
 
           <Hidden xsDown>
             <div className={classes.links}>
             {/* LINKS WILL BE PUT HERE */}
-              <Button className={classes.navButton}>CURATOR  </Button>
+              {/* <Button className={classes.navButton}>CURATOR  </Button>
                 <Button className={classes.navButton}> LISTED PROJECTS </Button> 
             <Button className={classes.navButton} href="https://t.me/AntiScamTofficial" target="_blank"> TG </Button>
               
-            <Button className={classes.navButton} href="https://antiscamtoken.cyou/AST.pdf"> WHITE PAPER </Button>
+            <Button className={classes.navButton} href="https://antiscamtoken.cyou/AST.pdf"> WHITE PAPER </Button> */}
 
             </div>
           </Hidden>

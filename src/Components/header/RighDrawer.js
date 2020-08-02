@@ -42,14 +42,15 @@ const RightDrawer = ({ open, onClickHandler }) => {
       onClick={onClickHandler}
     >
       <List>
-      <Link to="Curator">    <Button>CURATOR</Button> </Link>
+      {/* <Link to="Curator">  
+        <Button>CURATOR</Button> </Link>
              <br/>
              <Link to="ListedDapps">     <Button>LISTED PROJECTS</Button> </Link>
            
             <br/>
             <Button  href="https://t.me/AntiScamTofficial" target="_blank">TG</Button>
             <br/>
-            <Button  href="https://antiscamtoken.cyou/AST.pdf">WHITE PAPER</Button>
+            <Button  href="https://antiscamtoken.cyou/AST.pdf">WHITE PAPER</Button> */}
       </List>
     </Drawer>
   );
