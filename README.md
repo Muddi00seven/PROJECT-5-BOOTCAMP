@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## SURGE LINK
-https://www.npmjs.com/package/aos
+http://company-5-bootcamp.surge.sh/
 
 ## Available Scripts
 
